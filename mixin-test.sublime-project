@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+
+	"settings":
+	{
+		"sublimegdb_workingdir": "${folder:${project_path:main}}",
+		"sublimegdb_commandline": "gdb --interpreter=mi ./main"
+	}
+}
